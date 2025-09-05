@@ -7,17 +7,16 @@ This repository contains experiments exploring the Weisfeiler-Lehman (WL) test f
 ```
 task8/
 ├── experiment_a/           # Noise and robustness analysis
-│   ├── exp_a.py            # Implementation for testing perturbation effects
+│   ├── exp_a.py           
 │   ├── helper_task07.py    # WL test implementation from previous task
-│   ├── result_exp_a.txt    # Detailed experiment results
-│   └── README.md           # Specific documentation for Experiment A
+│   ├── result_exp_a.txt    
+│   └── README.md          
 ├── experiment_b/           # WL test validation
-│   ├── exp_b.py            # Basic implementation for validating WL results
-│   ├── exp_b.py   # Enhanced analysis with visualizations
-│   ├── experiment_b_results/  # Output directory with visualizations
-│   └── README.md           # Specific documentation for Experiment B
-├── report.pdf              # LaTeX report Report
-└── requirements.txt        # Dependencies
+│   ├── exp_b.py            
+│   ├── experiment_b_results/  
+│   └── README.md           
+├── report.pdf              
+└── requirements.txt        
 ```
 
 ## Experiments
