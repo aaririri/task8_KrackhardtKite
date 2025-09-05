@@ -1,0 +1,89 @@
+EXPERIMENT B: VALIDATING WL TEST RESULTS
+=======================================
+
+Total isomorphic groups found by WL test: 354
+Groups analyzed in detail: 2
+Found WL-fakes (non-isomorphic graphs classified as isomorphic): True
+
+GROUP 1 ANALYSIS
+Size: 25 graphs
+Graph indices: [168, 169, 225, 273, 296, 493, 535, 563, 636, 782]... (and more)
+All graphs truly isomorphic: False
+Isomorphic pairs: 97
+Non-isomorphic pairs: 203
+
+DETAILED ANALYSIS OF NON-ISOMORPHIC PAIRS (WL-FAKES):
+Example 1: Graphs 168 and 169
+  eigenvalues:
+    Graph 168: [-2.307363116765816, -1.7320508075688754, -1.5148969669502423, -1.2279358541073049, -0.15683463343399595]
+    Graph 169: [-2.307363116765814, -1.7320508075688767, -1.5148969669502428, -1.2279358541073018, -0.15683463343399556]
+
+Example 2: Graphs 168 and 225
+  eigenvalues:
+    Graph 168: [-2.307363116765816, -1.7320508075688754, -1.5148969669502423, -1.2279358541073049, -0.15683463343399595]
+    Graph 225: [-2.3073631167658153, -1.732050807568874, -1.5148969669502401, -1.2279358541073024, -0.15683463343399606]
+
+Example 3: Graphs 168 and 273
+  eigenvalues:
+    Graph 168: [-2.307363116765816, -1.7320508075688754, -1.5148969669502423, -1.2279358541073049, -0.15683463343399595]
+    Graph 273: [-2.3073631167658144, -1.7320508075688748, -1.5148969669502415, -1.2279358541073033, -0.156834633433996]
+
+Example 4: Graphs 168 and 296
+  eigenvalues:
+    Graph 168: [-2.307363116765816, -1.7320508075688754, -1.5148969669502423, -1.2279358541073049, -0.15683463343399595]
+    Graph 296: [-2.307363116765814, -1.7320508075688767, -1.5148969669502428, -1.2279358541073018, -0.15683463343399556]
+
+Example 5: Graphs 168 and 493
+  eigenvalues:
+    Graph 168: [-2.307363116765816, -1.7320508075688754, -1.5148969669502423, -1.2279358541073049, -0.15683463343399595]
+    Graph 493: [-2.3073631167658157, -1.7320508075688776, -1.5148969669502428, -1.2279358541073029, -0.15683463343399576]
+
+--------------------------------------------------
+
+GROUP 2 ANALYSIS
+Size: 14 graphs
+Graph indices: [60, 281, 436, 514, 776, 1159, 1439, 1474, 1509, 1650]... (and more)
+All graphs truly isomorphic: True
+Isomorphic pairs: 91
+Non-isomorphic pairs: 0
+
+EXAMPLE ISOMORPHISM MAPPINGS:
+Mapping between graphs 60 and 281:
+  Node correspondences (showing first 10):
+    Node 0 → Node 0
+    Node 1 → Node 1
+    Node 2 → Node 2
+    Node 3 → Node 3
+    Node 4 → Node 4
+    Node 5 → Node 5
+    Node 6 → Node 6
+
+Mapping between graphs 60 and 436:
+  Node correspondences (showing first 10):
+    Node 0 → Node 0
+    Node 1 → Node 1
+    Node 2 → Node 2
+    Node 3 → Node 3
+    Node 4 → Node 4
+    Node 5 → Node 5
+    Node 6 → Node 6
+
+Mapping between graphs 60 and 514:
+  Node correspondences (showing first 10):
+    Node 0 → Node 0
+    Node 1 → Node 1
+    Node 2 → Node 2
+    Node 3 → Node 3
+    Node 4 → Node 4
+    Node 5 → Node 5
+    Node 6 → Node 6
+
+--------------------------------------------------
+
+CONCLUSION
+==========
+
+The experiment confirms the theoretical limitation of the 1-WL test: it cannot distinguish all non-isomorphic graphs.
+
+Most common properties that distinguished 'WL-fake' pairs:
+  - eigenvalues: found in 5 non-isomorphic pairs
